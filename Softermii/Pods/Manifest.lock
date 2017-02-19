@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.3.0)
+  - Kingfisher (3.4.0)
+  - OAuthSwift (1.1.0)
+  - ObjectMapper (2.2.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Kingfisher
+  - OAuthSwift
+  - ObjectMapper
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Kingfisher: 5690cfb3d1bddf3a98d679a3a34d0b7294974ed2
+  OAuthSwift: 7ec2c62274f6bdc30b1ba3b799c39a6fdcaea0e5
+  ObjectMapper: d3b3de11267f5d971f390eb8d63dd509116a4329
+
+PODFILE CHECKSUM: 064e74edd8755fda2255273e6a2f4efd419d82ea
+
+COCOAPODS: 1.1.1

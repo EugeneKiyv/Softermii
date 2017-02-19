@@ -1,0 +1,10 @@
+/* 
+  Localization.strings
+  Softermii
+
+  Created by Eugene Kuropatenko on 2/19/17.
+  Copyright © 2017 home. All rights reserved.
+*/
+
+"Server connection error" = "Server connection error";
+"The operation could not be performed. Try to change you location or Internet connection." = "The operation could not be performed. Try to change you location or Internet connection.";

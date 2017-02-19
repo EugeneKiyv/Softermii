@@ -1,0 +1,33 @@
+
+/* Class = "UIBarButtonItem"; title = "Login"; ObjectID = "HDE-kd-qjr"; */
+"HDE-kd-qjr.title" = "Логін";
+
+/* Class = "UILabel"; text = "Fullname:"; ObjectID = "NjM-LN-X2e"; */
+"NjM-LN-X2e.text" = "Повне ім'я:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ReC-S6-loY"; */
+"ReC-S6-loY.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Z71-VP-gvC"; */
+"Z71-VP-gvC.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "ba2-SD-Ygg"; */
+"ba2-SD-Ygg.title" = "Профіль";
+
+/* Class = "UINavigationItem"; title = "Photos"; ObjectID = "cM0-wT-i29"; */
+"cM0-wT-i29.title" = "Фотографії";
+
+/* Class = "UIBarButtonItem"; title = "Profile"; ObjectID = "cdq-gk-vol"; */
+"cdq-gk-vol.title" = "Профіль";
+
+/* Class = "UILabel"; text = "UserName:"; ObjectID = "fcp-nE-TOF"; */
+"fcp-nE-TOF.text" = "Ім'я користувача:";
+
+/* Class = "UINavigationItem"; title = "Authorize"; ObjectID = "nsR-bh-LWC"; */
+"nsR-bh-LWC.title" = "Авторизація";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qk0-oF-Uwk"; */
+"qk0-oF-Uwk.text" = "Label";
+
+/* Class = "UILabel"; text = "Please, login"; ObjectID = "tAv-dA-NFi"; */
+"tAv-dA-NFi.text" = "Будь ласка, авторизуйтеся";

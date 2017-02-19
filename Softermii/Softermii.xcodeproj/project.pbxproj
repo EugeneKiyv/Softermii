@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B19FC7EDB63045A38257F95C /* Pods_Softermii.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5981744A9A096A4C96AAE8 /* Pods_Softermii.framework */; };
+		C666DF071E56EC3A0078A8AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C666DF061E56EC3A0078A8AD /* AppDelegate.swift */; };
+		C666DF0C1E56EC3A0078A8AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C666DF0A1E56EC3A0078A8AD /* Main.storyboard */; };
+		C666DF0E1E56EC3A0078A8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C666DF0D1E56EC3A0078A8AD /* Assets.xcassets */; };
+		C666DF111E56EC3A0078A8AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C666DF0F1E56EC3A0078A8AD /* LaunchScreen.storyboard */; };
+		C6DAC6A11E57208900F6022E /* AuthorizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DAC6A01E57208900F6022E /* AuthorizeViewController.swift */; };
+		C6DAC6A31E5720D500F6022E /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DAC6A21E5720D500F6022E /* PhotosViewController.swift */; };
+		C6DAC6A51E57215400F6022E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DAC6A41E57215400F6022E /* ProfileViewController.swift */; };
+		C6DAC6A71E57256A00F6022E /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DAC6A61E57256A00F6022E /* Preferences.swift */; };
+		C6DAC6A91E573E0A00F6022E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DAC6A81E573E0A00F6022E /* API.swift */; };
+		C6DAC6C01E59BDED00F6022E /* UIViewController+Softermii.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DAC6BF1E59BDED00F6022E /* UIViewController+Softermii.swift */; };
+		C6DAC6C61E5A136C00F6022E /* FlickrPhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DAC6C51E5A136C00F6022E /* FlickrPhotoResponse.swift */; };
+		C6DAC6C91E5A1C4200F6022E /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DAC6C81E5A1C4200F6022E /* PinterestLayout.swift */; };
+		C6DAC6CB1E5A1CC000F6022E /* PinterestLayouAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DAC6CA1E5A1CC000F6022E /* PinterestLayouAttributes.swift */; };
+		C6DAC6CD1E5A1D2600F6022E /* FlickrPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DAC6CC1E5A1D2600F6022E /* FlickrPhotoCell.swift */; };
+		C6DAC6D11E5A24F400F6022E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6DAC6D31E5A24F400F6022E /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32768F9A70B10576A91B8327 /* Pods-Softermii.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Softermii.release.xcconfig"; path = "Pods/Target Support Files/Pods-Softermii/Pods-Softermii.release.xcconfig"; sourceTree = "<group>"; };
+		C666DF031E56EC3A0078A8AD /* Softermii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Softermii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C666DF061E56EC3A0078A8AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C666DF0B1E56EC3A0078A8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C666DF0D1E56EC3A0078A8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C666DF101E56EC3A0078A8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C666DF121E56EC3A0078A8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6DAC6A01E57208900F6022E /* AuthorizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizeViewController.swift; sourceTree = "<group>"; };
+		C6DAC6A21E5720D500F6022E /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		C6DAC6A41E57215400F6022E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C6DAC6A61E57256A00F6022E /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		C6DAC6A81E573E0A00F6022E /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C6DAC6BF1E59BDED00F6022E /* UIViewController+Softermii.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Softermii.swift"; sourceTree = "<group>"; };
+		C6DAC6C51E5A136C00F6022E /* FlickrPhotoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotoResponse.swift; sourceTree = "<group>"; };
+		C6DAC6C81E5A1C4200F6022E /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		C6DAC6CA1E5A1CC000F6022E /* PinterestLayouAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayouAttributes.swift; sourceTree = "<group>"; };
+		C6DAC6CC1E5A1D2600F6022E /* FlickrPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotoCell.swift; sourceTree = "<group>"; };
+		C6DAC6CE1E5A23FB00F6022E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		C6DAC6D21E5A24F400F6022E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C6DAC6D41E5A24F600F6022E /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CC5981744A9A096A4C96AAE8 /* Pods_Softermii.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Softermii.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52A64966CEE1CD3A760D863 /* Pods-Softermii.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Softermii.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Softermii/Pods-Softermii.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C666DF001E56EC3A0078A8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19FC7EDB63045A38257F95C /* Pods_Softermii.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65F943F9AA11F404D3C79338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC5981744A9A096A4C96AAE8 /* Pods_Softermii.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C666DEFA1E56EC3A0078A8AD = {
+			isa = PBXGroup;
+			children = (
+				C666DF051E56EC3A0078A8AD /* Softermii */,
+				C666DF041E56EC3A0078A8AD /* Products */,
+				CB62D7FF259A9882975746A9 /* Pods */,
+				65F943F9AA11F404D3C79338 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C666DF041E56EC3A0078A8AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C666DF031E56EC3A0078A8AD /* Softermii.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C666DF051E56EC3A0078A8AD /* Softermii */ = {
+			isa = PBXGroup;
+			children = (
+				C6DAC6C41E5A133A00F6022E /* Model */,
+				C6DAC6C71E5A1C2100F6022E /* View */,
+				C6DAC69F1E57203000F6022E /* Controllers */,
+				C6DAC6C21E59CF4D00F6022E /* Other */,
+				C6DAC6C31E59CF5C00F6022E /* Utils */,
+			);
+			path = Softermii;
+			sourceTree = "<group>";
+		};
+		C6DAC69F1E57203000F6022E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6DAC6A01E57208900F6022E /* AuthorizeViewController.swift */,
+				C6DAC6A41E57215400F6022E /* ProfileViewController.swift */,
+				C6DAC6A21E5720D500F6022E /* PhotosViewController.swift */,
+			);
+			name = Controllers;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C6DAC6C21E59CF4D00F6022E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C666DF061E56EC3A0078A8AD /* AppDelegate.swift */,
+				C666DF0A1E56EC3A0078A8AD /* Main.storyboard */,
+				C666DF0D1E56EC3A0078A8AD /* Assets.xcassets */,
+				C666DF0F1E56EC3A0078A8AD /* LaunchScreen.storyboard */,
+				C666DF121E56EC3A0078A8AD /* Info.plist */,
+				C6DAC6D31E5A24F400F6022E /* Localizable.strings */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		C6DAC6C31E59CF5C00F6022E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C6DAC6A61E57256A00F6022E /* Preferences.swift */,
+				C6DAC6BF1E59BDED00F6022E /* UIViewController+Softermii.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		C6DAC6C41E5A133A00F6022E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6DAC6A81E573E0A00F6022E /* API.swift */,
+				C6DAC6C51E5A136C00F6022E /* FlickrPhotoResponse.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C6DAC6C71E5A1C2100F6022E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6DAC6C81E5A1C4200F6022E /* PinterestLayout.swift */,
+				C6DAC6CA1E5A1CC000F6022E /* PinterestLayouAttributes.swift */,
+				C6DAC6CC1E5A1D2600F6022E /* FlickrPhotoCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CB62D7FF259A9882975746A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F52A64966CEE1CD3A760D863 /* Pods-Softermii.debug.xcconfig */,
+				32768F9A70B10576A91B8327 /* Pods-Softermii.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C666DF021E56EC3A0078A8AD /* Softermii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C666DF151E56EC3A0078A8AD /* Build configuration list for PBXNativeTarget "Softermii" */;
+			buildPhases = (
+				43A75055B439ED557303000D /* [CP] Check Pods Manifest.lock */,
+				C666DEFF1E56EC3A0078A8AD /* Sources */,
+				C666DF001E56EC3A0078A8AD /* Frameworks */,
+				C666DF011E56EC3A0078A8AD /* Resources */,
+				16A8BB2553B0D7E2A863A35D /* [CP] Embed Pods Frameworks */,
+				729D3388E732B14F7FD9B365 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Softermii;
+			productName = Softermii;
+			productReference = C666DF031E56EC3A0078A8AD /* Softermii.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C666DEFB1E56EC3A0078A8AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					C666DF021E56EC3A0078A8AD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C666DEFE1E56EC3A0078A8AD /* Build configuration list for PBXProject "Softermii" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				uk,
+			);
+			mainGroup = C666DEFA1E56EC3A0078A8AD;
+			productRefGroup = C666DF041E56EC3A0078A8AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C666DF021E56EC3A0078A8AD /* Softermii */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C666DF011E56EC3A0078A8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C666DF111E56EC3A0078A8AD /* LaunchScreen.storyboard in Resources */,
+				C6DAC6D11E5A24F400F6022E /* Localizable.strings in Resources */,
+				C666DF0E1E56EC3A0078A8AD /* Assets.xcassets in Resources */,
+				C666DF0C1E56EC3A0078A8AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16A8BB2553B0D7E2A863A35D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Softermii/Pods-Softermii-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43A75055B439ED557303000D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		729D3388E732B14F7FD9B365 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Softermii/Pods-Softermii-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C666DEFF1E56EC3A0078A8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DAC6C61E5A136C00F6022E /* FlickrPhotoResponse.swift in Sources */,
+				C6DAC6A31E5720D500F6022E /* PhotosViewController.swift in Sources */,
+				C666DF071E56EC3A0078A8AD /* AppDelegate.swift in Sources */,
+				C6DAC6A71E57256A00F6022E /* Preferences.swift in Sources */,
+				C6DAC6CD1E5A1D2600F6022E /* FlickrPhotoCell.swift in Sources */,
+				C6DAC6A51E57215400F6022E /* ProfileViewController.swift in Sources */,
+				C6DAC6A91E573E0A00F6022E /* API.swift in Sources */,
+				C6DAC6CB1E5A1CC000F6022E /* PinterestLayouAttributes.swift in Sources */,
+				C6DAC6C91E5A1C4200F6022E /* PinterestLayout.swift in Sources */,
+				C6DAC6C01E59BDED00F6022E /* UIViewController+Softermii.swift in Sources */,
+				C6DAC6A11E57208900F6022E /* AuthorizeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C666DF0A1E56EC3A0078A8AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C666DF0B1E56EC3A0078A8AD /* Base */,
+				C6DAC6CE1E5A23FB00F6022E /* uk */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C666DF0F1E56EC3A0078A8AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C666DF101E56EC3A0078A8AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C6DAC6D31E5A24F400F6022E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DAC6D21E5A24F400F6022E /* Base */,
+				C6DAC6D41E5A24F600F6022E /* uk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C666DF131E56EC3A0078A8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C666DF141E56EC3A0078A8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C666DF161E56EC3A0078A8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52A64966CEE1CD3A760D863 /* Pods-Softermii.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Softermii/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Softermii.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C666DF171E56EC3A0078A8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32768F9A70B10576A91B8327 /* Pods-Softermii.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Softermii/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Softermii.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C666DEFE1E56EC3A0078A8AD /* Build configuration list for PBXProject "Softermii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C666DF131E56EC3A0078A8AD /* Debug */,
+				C666DF141E56EC3A0078A8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C666DF151E56EC3A0078A8AD /* Build configuration list for PBXNativeTarget "Softermii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C666DF161E56EC3A0078A8AD /* Debug */,
+				C666DF171E56EC3A0078A8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C666DEFB1E56EC3A0078A8AD /* Project object */;
+}

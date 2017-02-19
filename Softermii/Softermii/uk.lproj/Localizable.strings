@@ -1,0 +1,10 @@
+/* 
+  Localization.strings
+  Softermii
+
+  Created by Eugene Kuropatenko on 2/19/17.
+  Copyright © 2017 home. All rights reserved.
+*/
+
+"Server connection error" = "Неможливо з'єднатися з сервером";
+"The operation could not be performed. Try to change you location or Internet connection." = "Запит не здійснено. Спробуйте змінити ваше містополеження або з'єднання з інтернет.";
